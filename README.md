@@ -12,7 +12,15 @@ Fast, lightweight Python miner for rpow2 cryptocurrency.
 
 ## Quick Start
 
-### One-Liner Deployment
+### Auto-Deploy with Watchdog (Recommended)
+
+Automatically deploys, monitors API status, and starts mining when API is UP:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/Akbaralfajar5/rpow2-python-miner/main/auto-deploy.sh | bash
+```
+
+### Manual Deployment
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/Akbaralfajar5/rpow2-python-miner/main/deploy.sh | bash
